@@ -1,0 +1,23 @@
+Gloubs Studio/
+│
+├── index.html
+├── apps.html
+├── extensions.html
+├── about.html
+├── tech-stack.html
+│
+├── components/
+│   ├── sidebar.html
+│   └── topbar.html
+│
+├── js/
+│   └── site.js
+│
+├── style.css
+│
+└── assets/
+    ├── GSbannerImage.png
+    ├── demo_coffeereader.mp4
+    ├── demo_advertiser.mp4
+    ├── demo_tagtostyle.mp4
+    └── demo_privacyscanner.mp4
