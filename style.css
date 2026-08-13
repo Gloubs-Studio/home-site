@@ -119,9 +119,9 @@ body {
 }
 
 .home-btn {
-    position: absolute;
-    margin-left: 50%;
-    display: block;
+    position: relative;
+    
+    display: inline;
     padding: 8px 8px;
     font-size: 0.9rem;
     font-weight: 600;
@@ -467,6 +467,6 @@ body {
 }
 /* Bottom homepage logo*/
 .bottom-logo img {
-    width: 120px;
-    padding: 10px;;
+    width: 100px;
+    padding-top: 50px;;
 }
