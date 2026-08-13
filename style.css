@@ -61,8 +61,6 @@ body {
     display: none !important;
 }
 
-
-
 .dropdown {
     position: relative;
 }
@@ -121,13 +119,16 @@ body {
 }
 
 .home-btn {
-    display: inline-block;
-    padding: 8px 16px;
+    position: absolute;
+    margin-left: 40%;
+    display: block;
+    padding: 8px 8px;
     font-size: 0.9rem;
     font-weight: 600;
     background-color: #ffaaaaff;
     text-decoration: none;
     border-radius: 6px;
+    border: 2px solid var(--accent2);
 }
 
 .GS-banner img {
@@ -465,8 +466,6 @@ body {
     .main { margin-left: 0; }
 }
 /* Bottom homepage logo*/
-
-
 .bottom-logo img {
     width: 120px;
     padding: 10px;;
