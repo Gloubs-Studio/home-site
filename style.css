@@ -464,7 +464,10 @@ body {
     .topbar { left: 0; }
     .main { margin-left: 0; }
 }
+/* Bottom homepage logo*/
 
-.bottom-logo {
-    padding: 5%;
+
+.bottom-logo img {
+    width: 120px;
+    padding: 10px;;
 }
