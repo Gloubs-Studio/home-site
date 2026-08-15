@@ -9,6 +9,7 @@
     --accent: #ddff55ff;                    /* Accent color (links, hover) */
     --accent2: #87cddeff;                   /* btn links */
     --border: #9398af;                    /* Subtle borders */
+    --accent3: #ffaaaaff;
 
 /*
 Banner colors:
@@ -203,7 +204,7 @@ body {
 /* ═══════════════════════════════════════════════════════════════
     MAIN CONTENT AREA — Grid of 2 items per row
     Add new cards inside .content-grid
-═══════════════════════════════════════════════════════════════ */
+═══════════════════════════════════════════════════════════════*/
 .main {
     margin-left: var(--sidebar-width);
     margin-top: var(--topbar-height);
@@ -365,11 +366,6 @@ body {
 }
 
 /* ── Colonne principale ── */
-.about-content {
-    background: var(--bg-card);
-    padding: 32px;
-}
-
 .about-content h3 {
     font-size: 1.1rem; font-weight: 600;
     margin: 28px 0 12px;
@@ -379,14 +375,14 @@ body {
 .about-content h3:first-child { margin-top: 0; }
 
 .about-content p {
-    color: var(--font-light);
+    color: var(--accent);
     font-size: 0.95rem;
     margin-bottom: 14px;
 }
 
 .about-content ul {
     margin-left: 18px;
-    color: var(--font-light);
+    color: var(--accent2);
     font-size: 0.95rem;
 }
 .about-content li { margin-bottom: 6px; }
@@ -405,20 +401,6 @@ body {
     border-bottom: 1px solid var(--border);
 }
 .about-content h4:first-child { margin-top: 0; }
-
-.about-content p {
-    color: var(--font-light);
-    font-size: 0.95rem;
-    margin-bottom: 14px;
-}
-
-.about-content ul {
-    margin-left: 18px;
-    color: var(--font-light);
-    font-size: 0.95rem;
-}
-        .about-content li { margin-bottom: 6px; }
-
 
 /* ── Colonne latérale (carte profil) ── */
 .about-card {
@@ -467,6 +449,10 @@ body {
 }
 /* Bottom homepage logo*/
 .bottom-logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100px;
-    padding-top: 50px;;
+    padding-top: 35px;
+    padding-bottom: 25px;
 }
