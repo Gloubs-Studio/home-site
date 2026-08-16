@@ -224,7 +224,7 @@ body {
 }
 
 .page-header p {
-    color: var(--font-light);
+    color: var(--accent);
     font-size: 1rem;
 }
 
