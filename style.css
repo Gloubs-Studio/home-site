@@ -224,7 +224,7 @@ body {
 }
 
 .page-header p {
-    color: var(--accent);
+    color: var(--accent2);
     font-size: 1rem;
 }
 
@@ -375,7 +375,7 @@ body {
 .about-content h3:first-child { margin-top: 0; }
 
 .about-content p {
-    color: var(--accent);
+    color: var(--accent2);
     font-size: 0.95rem;
     margin-bottom: 14px;
 }
