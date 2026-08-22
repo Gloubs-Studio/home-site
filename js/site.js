@@ -49,4 +49,14 @@ document.addEventListener("DOMContentLoaded", () => {
             video.currentTime = 0;
         });
     });
+    
 });
+
+function showImage(thumb) {
+    // Update main image source
+    document.getElementById('current').src = thumb.src;
+    // Remove 'active' class from all thumbnails
+    document.querySelectorAll('.thumbnails img').forEach(img => img.classList.remove('active'));
+    // Highlight the clicked thumbnail
+    thumb.classList.add('active');
+    }
