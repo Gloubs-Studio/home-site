@@ -52,11 +52,13 @@ document.addEventListener("DOMContentLoaded", () => {
     
 });
 
-function showImage(thumb) {
-    // Update main image source
-    document.getElementById('current').src = thumb.src;
-    // Remove 'active' class from all thumbnails
-    document.querySelectorAll('.thumbnails img').forEach(img => img.classList.remove('active'));
-    // Highlight the clicked thumbnail
-    thumb.classList.add('active');
-    }
+/* Image carousel*/
+function selectImage(thumbnail) {
+  document.getElementById("selectedImage").src = thumbnail.src;
+
+  document.querySelectorAll(".thumbnail").forEach(img => {
+    img.classList.remove("active");
+  });
+
+  thumbnail.classList.add("active");
+}

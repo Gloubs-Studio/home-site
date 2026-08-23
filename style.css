@@ -365,7 +365,7 @@ body {
 }
 
 /* ── Colonne principale ── */
-.about-content, .content-section {
+.about-content {
     background: var(--bg-page);
     padding-left: 32px;
     padding-bottom: 16px;;
@@ -454,56 +454,79 @@ body {
     .topbar { left: 0; }
     .main { margin-left: 0; }
 }
+
 /* Bottom homepage logo*/
 .bottom-logo img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100px;
-    padding-top: 35px;
     padding-bottom: 25px;
 }
 
-
-/* Image gallery*/
-.gallery {
-    max-width: 800px;
-    margin: 20px auto;
-    font-family: sans-serif;
-}
-
-.main-screen {
-    width: 100%;
-    height: auto;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-}
-
-.thumbnails {
-    display: flex;
-    gap: 10px;
-    margin-top: 10px;
-}
-
-.thumbnails img {
-    width: 120px;
-    height: 80px;
-    object-fit: cover;
-    cursor: pointer;
-    border: 2px solid transparent;
-    border-radius: 4px;
-    opacity: 0.7;
-}
-
-.thumbnails img:hover,
-.thumbnails img.active {
-    opacity: 1;
-    border-color: #007bff;
+/* Illustration mole geek*/
+.illustration img {
+    filter: invert(1);
+    mix-blend-mode: screen;
+    display: block;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
 }
 
 .content-section td {
-
     padding-left: 16px;
     padding-right: 16px;
     margin: auto;
+}
+
+/* Image carousel */
+.viewer {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.main-image {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.thumbnail-carousel {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.thumbnail-track {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+  width: max-content;
+  padding: 8px 0;
+}
+
+.thumbnail {
+  flex: 0 0 auto;
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.thumbnail.active {
+  opacity: 1;
+  outline: 2px solid #000;
 }
