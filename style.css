@@ -1,14 +1,14 @@
 :root {
     /* === MAIN COLORS === */
     --font-main: #dedbe3ff;                 
-    --font-light: #c6afe9ff;                /* Secondary text */
-    --bg-page: rgb(47, 48, 51);                   /* Warm off-white page background */
-    --bg-card: #87cddeff;                   /* Card background */
-    --bg-sidebar: #17182c;                /* Dark sidebar */
-    --bg-topbar: white;                 /* Top bar background */
-    --accent: #ddff55ff;                    /* Accent color (links, hover) */
-    --accent2: #87cddeff;                   /* btn links */
-    --border: #9398af;                    /* Subtle borders */
+    --font-light: #c6afe9ff;        /* Secondary text */
+    --bg-page: rgb(47, 48, 51);     /*page background */
+    --bg-card: #87cddeff;           /* Card background */
+    --bg-sidebar: #17182c;          /* Dark sidebar */
+    --bg-topbar: white;             /* Top bar background */
+    --accent: #ddff55ff;            /* Accent color (links, hover) */
+    --accent2: #87cddeff;           /* btn links */
+    --border: #9398af;              /* Subtle borders */
     --accent3: #ffaaaaff;
     --basic: #dedbe3ff;
 
