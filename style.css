@@ -2,7 +2,7 @@
     /* === MAIN COLORS === */
     --font-main: #dedbe3ff;                 
     --font-light: #c6afe9ff;        /* Secondary text */
-    --bg-page: rgb(47, 48, 51);     /*page background */
+    --bg-page: rgb(35, 35, 38);     /*page background */
     --bg-card: #87cddeff;           /* Card background */
     --bg-sidebar: #17182c;          /* Dark sidebar */
     --bg-topbar: white;             /* Top bar background */
@@ -259,7 +259,7 @@ body {
 }
 
 .card:hover {
-    transform: translateY(-2px);
+    transform: translateY(0);
     box-shadow: 0 12px 32px rgba(0,0,0,0.06);
 }
 
