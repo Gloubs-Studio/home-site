@@ -387,6 +387,11 @@ body {
 }
 .about-content h3:first-child { margin-top: 0;}
 
+.viewer h4 {
+    padding-bottom: 12px;
+    border-top: 1px solid var(--border);
+}
+
 .about-content p {
     color: var(--basic);
     font-size: 0.95rem;
@@ -529,4 +534,8 @@ body {
 .thumbnail.active {
   opacity: 1;
   outline: 2px solid #000;
+}
+
+.spacer {
+    padding: 18px;
 }
