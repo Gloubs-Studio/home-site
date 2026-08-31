@@ -62,12 +62,12 @@
                     breaks the chain and is detectable with a single on-demand
                     integrity check.
                 </li>
-                <li><strong>Zero Standing Privilege:</strong> No administrative
-                    session is ever cached. Every policy change independently
-                    re-authenticates against the operating system itself, every
-                    single time — there is no window of elevated access to exploit.
+                <li><strong>Zero Standing Privilege:</strong> Hardened by desing,
+                    no administrative session is ever cached. Every policy change
+                    independently re-authenticates against the operating system itself,
+                    every single time — there is no window of elevated access to exploit.
                 </li>
-                <li><strong>Intelligent Alerting:</strong> Desktop notifications
+                <li><strong>Cumulative Alerting:</strong> Desktop notifications
                     surface meaningful patterns of activity based on administrator-
                     defined thresholds, rather than triggering on every isolated
                     event.
@@ -78,15 +78,10 @@
                     including on-demand log integrity verification.
                 </li>
             </ul>
-
-            <h3>Note</h3>
-            <p>In this version, file transfers that violate DLP rules are <strong>not blocked</strong>, only marked as violations.</p>
         </section>
 
-        <div class="spacer"></div>
-
         <div class="viewer">
-            <h4>Screenshots</h4>
+            <h3>Screenshots</h3>
             <!-- Selected image -->
             <div class="main-image">
                 <img id="selectedImage" src="assets/img_usbdlp_0.png" alt="">
@@ -103,6 +98,11 @@
             </div>
         </div>
 
+        <section>
+            <h3>Note:</h3>
+            <p>In this version, file transfers that violate DLP rules are <strong>not blocked</strong>, only marked as violations.</p>
+        </section>
+         
     </main>
 </body>
 </html>
