@@ -14,7 +14,7 @@
 
     <main class="main">
         <div class="page-header">
-            <h1>The USB Watcher Agent</h1>
+            <h1>The USB-DLP Watcher Agent</h1>
         </div>
 
         <article class="card">
@@ -24,11 +24,64 @@
                 </video>
             </div>
             <div class="card-body">
-                <h3 class="card-title">USB DLP Watcher Agent</h3>
+                <h3 class="card-title">USB-DLP Watcher Agent</h3>
                 <p class="card-desc">Our Linux DLP solution for USB.</p>
                 <span class="card-tag">Cybersecurity</span>
             </div>
         </article>
+
+        <section class="content-section">
+            <h2>Overview</h2>
+            <p>USB-DLP Watcher Agent is a real-time Data Loss Prevention tool for Linux
+                that monitors file transfers written to external USB storage.
+                It detects policy violations as they happen, keeps a
+                tamper-evident audit trail of every transfer, and gives
+                administrators a dedicated console to manage rules and review
+                activity.
+            </p>
+
+            <h3>Key Features</h3>
+            <ul>
+                <li><strong>Real-Time, In-Flight Detection:</strong> Policy violations
+                    are caught the instant they occur — including interrupting an
+                    oversised or prohibited transfer while it's still in progress,
+                    not only after it completes.
+                </li>
+                <li><strong>Boot-Independent Coverage:</strong> Protection is active
+                    from the moment the system starts, independent of whether any
+                    user is logged in or a desktop session is running.
+                </li>
+                <li><strong>Multi-Layered Detection Rules:</strong> Violations are
+                    flagged across five independent layers — file type, filename or
+                    path pattern, size thresholds, cryptographic file fingerprinting,
+                    and in-document keyword content across common file formats.
+                </li>
+                <li><strong>Cryptographically Chained Audit Log:</strong> Every
+                    recorded event is mathematically linked to the one before it.
+                    Any alteration of historical records — even a single entry —
+                    breaks the chain and is detectable with a single on-demand
+                    integrity check.
+                </li>
+                <li><strong>Zero Standing Privilege:</strong> No administrative
+                    session is ever cached. Every policy change independently
+                    re-authenticates against the operating system itself, every
+                    single time — there is no window of elevated access to exploit.
+                </li>
+                <li><strong>Intelligent Alerting:</strong> Desktop notifications
+                    surface meaningful patterns of activity based on administrator-
+                    defined thresholds, rather than triggering on every isolated
+                    event.
+                </li>
+                <li><strong>Dedicated Management Console:</strong> A native Linux
+                    desktop application for system overview, rule management,
+                    filterable and exportable audit history, and live diagnostics —
+                    including on-demand log integrity verification.
+                </li>
+            </ul>
+
+            <h3>Note</h3>
+            <p>In this version, file transfers that violate DLP rules are <strong>not blocked</strong>, only marked as violations.</p>
+        </section>
 
         <div class="spacer"></div>
 
@@ -48,49 +101,7 @@
                     <img src="assets/img_usbdlp_3.png" class="thumbnail" onclick="selectImage(this)">
                 </div>
             </div>
-
         </div>
-
-        <section class="content-section">
-            <h2>Overview</h2>
-            <p>USB DLP Watcher is a real-time data loss prevention tool for Linux
-                that monitors file transfers written to external USB storage.
-                It detects policy violations as they happen, keeps a
-                tamper-evident audit trail of every transfer, and gives
-                administrators a dedicated console to manage rules and review
-                activity.
-            </p>
-
-            <h3>Key Features</h3>
-            <ul>
-                <li><strong>Real-Time Monitoring:</strong> USB activity is detected
-                    and evaluated the instant it happens — no delay, no polling.
-                </li>
-                <li><strong>Boot-Independent Coverage:</strong> Protection is active
-                    from system startup, independent of whether a user is
-                    logged in.
-                </li>
-                <li><strong>Configurable DLP Rules:</strong> Flag transfers by file
-                    type, filename pattern, size, known file signatures, and
-                    in-document keyword content.
-                </li>
-                <li><strong>Tamper-Evident Audit Log:</strong> Every event is
-                    recorded with cryptographic integrity protection, so
-                    tampering with the historical record is detectable.
-                </li>
-                <li><strong>Hardened by Design:</strong> Administrative changes
-                    require fresh authentication every time — no standing
-                    privilege, no stored credentials, no exploitable shortcuts.
-                </li>
-                <li><strong>Dedicated Management Console:</strong> A native Linux
-                    desktop application for system overview, rule management,
-                    filterable event history, and live diagnostics.
-                </li>
-            </ul>
-
-            <h3>Note</h3>
-            <p>In this Free-tier version, file transfers that violate DLP rules are <strong>not blocked</strong>, only marked as violations.</p>
-        </section>
 
     </main>
 </body>

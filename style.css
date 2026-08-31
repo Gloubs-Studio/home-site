@@ -132,7 +132,7 @@ body {
 
 .GS-banner img {
     width: 100%;
-    height: 25px;
+    height: 20px;
     object-fit: cover;
     display: inline;
 }
@@ -219,7 +219,7 @@ body {
     font-size: 1.6rem;
     font-weight: 700;
     letter-spacing: -0.02em;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .page-header p {
@@ -387,10 +387,7 @@ body {
 }
 .about-content h3:first-child { margin-top: 0;}
 
-.viewer h4 {
-    padding-bottom: 12px;
-    border-top: 1px solid var(--border);
-}
+/*.page-header h4, .viewer h4 {padding-bottom: 12px; border-top: 1px solid var(--border);}*/
 
 .about-content p {
     color: var(--basic);
