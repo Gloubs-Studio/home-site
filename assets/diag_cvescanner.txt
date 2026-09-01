@@ -1,0 +1,21 @@
+Target Linux System
+     │
+     ├── Active processes (/proc/[pid]) ─────────────┐
+     ├── Running binaries (/proc/[pid]/exe) ─────────┤
+     └── Package & version facts (dpkg-query) ───────┤
+                                                     │
+Vendor CVE Feeds                                     ▼
+     │                                    Evidence & Binary Model
+     ├── Debian JSON Tracker ────────┐               │
+     └── Ubuntu Security Feeds ──────┤               │
+                                     ▼               │
+                           Local SQLite Database ────┘
+                           (~/.local/share/cve.db)
+                                     │
+                                     ▼
+                            Comparative Analysis
+                        (Version & Severity Scoring)
+                                     │
+                                     ▼
+                         Scan Findings & Alerts
+                      (GUI Console & Notifications)
