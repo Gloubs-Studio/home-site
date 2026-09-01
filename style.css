@@ -465,6 +465,17 @@ body {
     width: 100px;
     padding-bottom: 25px;
 }
+/* Welcome image */
+.welcome-image{
+    filter: invert(1);
+    filter:drop-shadow(0 0 0.75rem #87cddeff);
+    mix-blend-mode: screen;
+    display: block;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
 
 /* Illustration mole geek*/
 .illustration img {
