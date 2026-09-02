@@ -467,14 +467,13 @@ body {
 }
 /* Welcome image */
 .welcome-image{
-    filter: invert(1);
-    filter:drop-shadow(0 0 0.75rem #87cddeff);
+    filter:drop-shadow(0 0 0.2rem var(--accent2));
     mix-blend-mode: screen;
     display: block;
     padding: 50px;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: auto;
 }
 
 /* Illustration mole geek*/
