@@ -1,21 +1,33 @@
-Target Linux System
-     │
-     ├── Active processes (/proc/[pid]) ─────────────┐
-     ├── Running binaries (/proc/[pid]/exe) ─────────┤
-     └── Package & version facts (dpkg-query) ───────┤
-                                                     │
-Vendor CVE Feeds                                     ▼
-     │                                    Evidence & Binary Model
-     ├── Debian JSON Tracker ────────┐               │
-     └── Ubuntu Security Feeds ──────┤               │
-                                     ▼               │
-                           Local SQLite Database ────┘
-                           (~/.local/share/cve.db)
-                                     │
-                                     ▼
-                            Comparative Analysis
-                        (Version & Severity Scoring)
-                                     │
-                                     ▼
-                         Scan Findings & Alerts
-                      (GUI Console & Notifications)
+                                        Comparative                                            
+                                        Analytical                                             
+                                        Process                                                
+                                             |                                                 
+                          ۞------------------۞--------------------۞                            
+                          |                                       |                            
+                          °                                       °                            
+                    Target                                   Vendor CVE                        
+                    Linux System                             Feeds                             
+                          |                                       |                            
+         ۞----------------۞----------------۞               ۞------۞--------۞                   
+         |                |                |               |               |                   
+         °                °                °               °               °                   
+     Active           Running          Package &      Debian JSON      Ubuntu                  
+     processes        binaries         version        Tracker          Security                
+         |                |            facts               |           Feeds                   
+         ۞----------------۞----------------۞               ۞---------------۞                   
+                                           ۞                               ۞                   
+                                           |                               |                   
+                                           °                               °                   
+                                     Evidence &                        Local                   
+                                     Binary Model----------------------SQLite DB               
+                                                                           |                   
+                                                                           ۞                   
+                                                                           |                   
+                                                                           °                   
+                                                                       Analysis                
+                                                                           |                   
+                                                                      ۞----۞----۞              
+                                                                      |         |              
+                                                                      °         °              
+                                                                  Scoring & Results &          
+                                                                  Alerts    CSV
